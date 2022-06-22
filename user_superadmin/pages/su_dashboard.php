@@ -170,7 +170,7 @@
           </ul>
         </li> -->
         <li>
-          <a href="pages/widgets.html">
+          <a href="pages/admin/listadmin.php">
             <i class="fa fa-th"></i> <span>Kelola Admin</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
