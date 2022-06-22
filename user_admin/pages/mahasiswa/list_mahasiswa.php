@@ -35,9 +35,9 @@
     <!-- Logo -->
     <a href="../../index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>A</b>E</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Admin</b>ECOIS</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -322,17 +322,10 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
-          <a href="#">
+        <li>
+          <a href="../dashboard.php">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <!-- <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span> -->
           </a>
-          <!-- <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul> -->
         </li>
         <!-- <li class="treeview">
           <a href="#">
@@ -370,7 +363,7 @@
             <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Daftar Proposal</a></li>
           </ul>
         </li>
-        <li class="treeview">
+        <li class="active treeview">
           <a href="#">
             <i class="fa fa-laptop"></i>
             <span>Kelola Mahasiswa</span>
@@ -379,7 +372,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> List Mahasiswa</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> List Mahasiswa</a></li>
             <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Verifikasi Mahasiswa</a></li>
           </ul>
         </li>
@@ -493,13 +486,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Simple Tables
-        <small>preview of simple tables</small>
+        Tabel Mahasiswa
+
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="#">Tables</a></li>
-        <li class="active">Simple</li>
+        <li class="active">Mahasiswa</li>
       </ol>
     </section>
 
@@ -527,9 +520,9 @@
                 <tr>
                   <th>ID</th>
                   <th>User</th>
-                  <th>Date</th>
+                  <th>Tanggal</th>
                   <th>Status</th>
-                  <th>Reason</th>
+                  <th>Keterangan</th>
                 </tr>
                 <tr>
                   <td>183</td>
