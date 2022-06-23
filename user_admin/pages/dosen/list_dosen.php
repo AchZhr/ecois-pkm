@@ -182,7 +182,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> List Mahasiswa</a></li>
+            <li><a href="../mahasiswa/list_mahasiswa.php"><i class="fa fa-circle-o"></i> List Mahasiswa</a></li>
             <li><a href="../mahasiswa/verif_mhs.php"><i class="fa fa-circle-o"></i> Verifikasi Mahasiswa</a></li>
           </ul>
         </li>
@@ -194,7 +194,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../dosen/list_dosen.php"><i class="fa fa-circle-o"></i> List Dosen</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> List Dosen</a></li>
             <li><a href="../dosen/verif_dosen.php"><i class="fa fa-circle-o"></i> Verifikasi Dosen</a></li>
           </ul>
         </li>
@@ -296,13 +296,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Tabel Mahasiswa
-
+        Tabel Dosen
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="#">Tables</a></li>
-        <li class="active">Mahasiswa</li>
+        <li class="active">Dosen</li>
       </ol>
     </section>
 
@@ -312,7 +311,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">List Mahasiswa</h3>
+              <h3 class="box-title">List Dosen</h3>
 
               <div class="box-tools">
                 <div class="input-group input-group-sm hidden-xs" style="width: 150px;">

@@ -199,8 +199,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> List Mahasiswa</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Verifikasi Mahasiswa</a></li>
+            <li><a href="../pages/mahasiswa/list_mahasiswa.php"><i class="fa fa-circle-o"></i> List Mahasiswa</a></li>
+            <li><a href="../pages/mahasiswa/verif_mhs.php"><i class="fa fa-circle-o"></i> Verifikasi Mahasiswa</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -211,8 +211,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> List Dosen</a></li>
-            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Verifikasi Dosen</a></li>
+            <li><a href="../pages/dosen/list_dosen.php"><i class="fa fa-circle-o"></i> List Dosen</a></li>
+            <li><a href="../pages/dosen/verfi_dosen.php"><i class="fa fa-circle-o"></i> Verifikasi Dosen</a></li>
           </ul>
         </li>
         <!-- <li class="treeview">
