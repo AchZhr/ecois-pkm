@@ -169,40 +169,21 @@
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
           </ul>
         </li> -->
-        <li>
-          <a href="pages/admin/listadmin.php">
-            <i class="fa fa-th"></i> <span>Kelola Admin</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
-        </li>
+
         <li class="treeview">
           <a href="#">
             <i class="fa fa-pie-chart"></i>
-            <span>Kelola Proposal</span>
+            <span>Proposal PKM</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Pengajuan Proposal</a></li>
-            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Daftar Proposal</a></li>
+            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Upload Proposal PKM</a></li>
+            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Hasil Seleksi Proposal</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Kelola Mahasiswa</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> List Mahasiswa</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Verifikasi Mahasiswa</a></li>
-          </ul>
-        </li>
+        
         <li class="treeview">
           <a href="#">
             <i class="fa fa-edit"></i> <span>Kelola Dosen</span>
