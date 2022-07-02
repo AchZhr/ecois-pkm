@@ -296,13 +296,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Tabel Mahasiswa
+        Tabel Proposal
 
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="#">Tables</a></li>
-        <li class="active">Mahasiswa</li>
+        <li class="active">Proposal</li>
       </ol>
     </section>
 
@@ -312,7 +312,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">List Mahasiswa</h3>
+              <h3 class="box-title">List Proposal</h3>
 
               <div class="box-tools">
                 <div class="input-group input-group-sm hidden-xs" style="width: 150px;">
@@ -343,7 +343,7 @@
                   <td>Dosen A</td>
                   <td>2022</td>
                   <td><span class="label label-success">Sedang Diulas</span</td>
-                  <td> <span class="label label-success">Detail</span> <span class="label label-success">Hapus</span> </td>
+                  <td> <span class="label label-info">Detail</span> <span class="label label-danger">Hapus</span> </td>
                 </tr>
               </table>
             </div>
