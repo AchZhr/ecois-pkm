@@ -186,8 +186,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Pengajuan Proposal</a></li>
-            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Daftar Proposal</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Pengajuan Proposal</a></li>
+            <li><a href="../pages/proposal/list_proposal.php"><i class="fa fa-circle-o"></i> Daftar Proposal</a></li>
           </ul>
         </li>
         <li class="treeview">

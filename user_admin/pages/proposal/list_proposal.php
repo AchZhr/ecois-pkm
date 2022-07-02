@@ -169,8 +169,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Pengajuan Proposal</a></li>
-            <li><a href="../proposal/list_proposal.php"><i class="fa fa-circle-o"></i> Daftar Proposal</a></li>
+            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Pengajuan Proposal</a></li>
+            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Daftar Proposal</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -328,39 +328,22 @@
             <div class="box-body table-responsive no-padding">
               <table class="table table-hover">
                 <tr>
-                  <th>ID</th>
-                  <th>User</th>
-                  <th>Tanggal</th>
-                  <th>Status</th>
-                  <th>Keterangan</th>
+                  <th>No.</th>
+                  <th>Hibah</th>
+                  <th>Judul</th>
+                  <th>Pembimbing</th>
+                  <th>Periode</th>
+                  <th>Tahap</th>
+                  <th>Aksi</th>
                 </tr>
                 <tr>
-                  <td>183</td>
+                  <td>1</td>
                   <td>John Doe</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-success">Approved</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                </tr>
-                <tr>
-                  <td>219</td>
-                  <td>Alexander Pierce</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-warning">Pending</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                </tr>
-                <tr>
-                  <td>657</td>
-                  <td>Bob Doe</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-primary">Approved</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                </tr>
-                <tr>
-                  <td>175</td>
-                  <td>Mike Doe</td>
-                  <td>11-7-2014</td>
-                  <td><span class="label label-danger">Denied</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner</td>
+                  <td>Dosen A</td>
+                  <td>2022</td>
+                  <td><span class="label label-success">Sedang Diulas</span</td>
+                  <td> <span class="label label-success">Detail</span> <span class="label label-success">Hapus</span> </td>
                 </tr>
               </table>
             </div>
