@@ -1,0 +1,276 @@
+ <!--====== Section 2 ======-->
+ <div class="u-s-p-b-60">
+
+ 	<!--====== Section Intro ======-->
+ 	<div class="section__intro u-s-m-b-16">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-lg-12">
+ 					<div class="section__text-wrap">
+ 						<h1 class="section__heading u-c-secondary u-s-m-b-12">Produk Terlaris</h1>
+
+ 						<span class="section__span u-c-silver">Pilih Kategori</span>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<!--====== End - Section Intro ======-->
+
+
+ 	<!--====== Section Content ======-->
+ 	<div class="section__content">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-lg-12">
+ 					<div class="filter-category-container">
+
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1 js-checked" type="button"
+ 								data-filter="*">Semua</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Fashion&Aksesoris">Fashion & Aksesoris</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Sepatu">Sepatu</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Pakaian">Pakaian</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Food&Beverage">Food & Beverage</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Produk Kecantikan">Produk Kecantikan</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Pakaian">Lain-Lain</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Pakaian">Lain-Lain</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Pakaian">Lain-Lain</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Pakaian">Lain-Lain</button>
+ 						</div>
+ 						<div class="filter__category-wrapper">
+
+ 							<button class="btn filter__btn filter__btn--style-1" type="button"
+ 								data-filter=".Pakaian">Lain-Lain</button>
+ 						</div>
+
+ 					</div>
+ 					<div class="filter__grid-wrapper u-s-m-t-30">
+ 						<div class="row">
+
+ 							<?php
+                                foreach ($param as $produk) {
+
+                                ?>
+
+ 							<div
+ 								class="col-xl-3 col-lg-4 col-md-6 col-sm-6 u-s-m-b-30 filter__item <?= $produk->kategori; ?>">
+ 								<div class="product-o product-o--hover-on product-o--radius">
+ 									<div class="product-o__wrap">
+
+ 										<a class="aspect aspect--bg-grey aspect--square u-d-block"
+ 											href="product-detail.html">
+
+ 											<img class="aspect__img"
+ 												src="<?php echo base_url(); ?>assets/client/images/product/electronic/product2.jpg"
+ 												alt=""></a>
+
+ 									</div>
+
+ 									<span class="product-o__category">
+
+ 										<a href="shop-side-version-2.html"><?= $produk->kategori; ?></a></span>
+
+ 									<span class="product-o__name">
+
+ 										<a href="product-detail.html"><?= $produk->nama_produk; ?></a></span>
+ 									<div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i
+ 											class="fas fa-star"></i><i class="fas fa-star"></i><i
+ 											class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+
+ 										<span class="product-o__review">(23)</span>
+ 									</div>
+
+ 									<span class="product-o__price"><?= $produk->harga_jual; ?></span>
+
+
+ 									<span class="product-o__category" style="margin-top: 3px;font-size:10pt"><a
+ 											href="<?= $produk->id_toko; ?>"><?= $produk->id_toko; ?></a></span>
+
+ 								</div>
+ 							</div>
+ 							<?php
+                                }
+                                ?>
+ 						</div>
+ 					</div>
+ 				</div>
+
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<!--====== End - Section Content ======-->
+ </div>
+ <!--====== End - Section 2 ======-->
+
+
+
+ <aside class="main-sidebar">
+ 	<!-- sidebar: style can be found in sidebar.less -->
+ 	<section class="sidebar">
+ 		<!-- Sidebar user panel -->
+ 		<div class="user-panel">
+ 			<div class="pull-left image">
+ 				<img src="<?php echo base_url('assets/admin/dist/img/user.png') ?>" class="img-circle"
+ 					alt="User Image">
+ 			</div>
+ 			<div class="pull-left info">
+ 				<p> <?php echo $param->nama; ?> </p>
+ 				<a href="#"><i class="fa fa-circle text-success"></i><?php echo $param->npm; ?></a>
+ 			</div>
+ 		</div>
+ 		<!-- /.search form -->
+ 		<!-- sidebar menu: : style can be found in sidebar.less -->
+ 		<ul class="sidebar-menu" data-widget="tree">
+ 			<li class="header">MENU</li>
+ 			<?php if ($this->session->userdata('role') == 0) { ?>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin') ?>">
+ 					<i class="fa fa-dashboard"></i> <span>DASHBOARD</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-file"></i> <span>Pengajuan Proposal</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/user') ?>">
+ 					<i class="fa fa-inbox"></i> <span>Judul</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<?php } else if ($this->session->userdata('role') == 1) { ?>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin') ?>">
+ 					<i class="fa fa-dashboard"></i> <span>DASHBOARD</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-inbox"></i><span>Validasi Pengajuan</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/user') ?>">
+ 					<i class="fa fa-user"></i> <span>Judul</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+
+ 			<?php } else if ($this->session->userdata('role') == 9 || $this->session->userdata('role') == 8) { ?>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin') ?>">
+ 					<i class="fa fa-dashboard"></i> <span>DASHBOARD</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-inbox"></i><span>Pengajuan Prposal</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-inbox"></i><span>Mahasiswa</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-file"></i><span>Dosen</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-inbox"></i><span>Verifikasi Mahasiswa</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-inbox"></i><span>Verifikasi Dosen</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<?php if ($this->session->userdata('role') == 9) { ?>
+
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/usaha') ?>">
+ 					<i class="fa fa-inbox"></i><span>Admin</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+
+ 			<?php } ?>
+
+ 			<li>
+ 				<a href="<?php echo base_url('Admin/user') ?>">
+ 					<i class="fa fa-user"></i> <span>Judul</span>
+ 					<span class="pull-right-container">
+ 					</span>
+ 				</a>
+ 			</li>
+ 			<?php } ?>
+
+ 		</ul>
+
+ 	</section>
+ 	<!-- /.sidebar -->
+ </aside>
